@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: #434ccc;
+    color: white;
+    padding: 16px;
+    position: fixed;
+  }
+  
+  .logo {
+    font-size: 40px;
+    margin-left: 138px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 135px;
+  }
+  
+  .titles > a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: white;
+    font-family: dm sans;
+  }
+  .titles > a:hover {
+    font-size: 18px;
+    transition: font-size 0.1s ease-in;
+  }
+  
+  .navbutton > button {
+    color: white;
+    background: transparent;
+    padding: 11px 56.5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .navbutton > button:hover {
+    color: black;
+    background: white;
+    transition: color 0.3s ease-in;
+  }
+  
+  .about {
+    width: 100%;
+    height: 254px;
+    background: #434ccc;
+  }
+  
+  .text {
+    text-align: center;
+    padding: 70px;
+  }
+  
+  .text > h1 {
+    margin-top: 30px;
+    color: var(--Text_White, #fff);
+    text-align: center;
+  
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+  }
+  .text > p {
+    color: var(--Text_White, #fff);
+    text-align: center;
+  
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .container-2 {
+    width: 100%;
+    height: 768px;
+    display: flex;
+  }
+  
+  .container-text {
+    margin-left: 135px;
+    margin-top: 127px;
+  }
+  
+  .container-2 div > h5 {
+    color: var(--Text_Black, #000);
+    /* H5 */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  
+  .container-2 div > h2 {
+    color: #000;
+    /* H2 */
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    width: 411px;
+    padding-top: 20px;
+  }
+  
+  .container-2 div > p {
+    color: var(--Text_Black, #000);
+    /* Text_Big */
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 570px;
+    padding-top: 20px;
+  }
+  
+  .container-2 div > h3 {
+    padding-top: 30px;
+    color: var(--Text_Black, #000);
+    /* H3 */
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    width: 86px;
+    height: 48px;
+  }
+  
+  .container-2 div > .black {
+    color: var(--Text_Black, #000);
+    /* Text */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 178px;
+    height: 24px;
+  }
+  
+  .container-2 div > .grey {
+    color: rgba(0, 0, 0, 0.5);
+  
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    height: 49px;
+    width: 250px;
+  }
+  
+  .container-2 >img{
+    width: 814px;
+    height: 718px;
+  }
