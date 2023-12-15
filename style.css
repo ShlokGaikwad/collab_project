@@ -236,6 +236,367 @@
 .card1>svg{
   padding-top: 64px;
 }
+
+/* Sourav Anand */
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.box-saurav{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+/* .image-box{
+  margin-left: 101px;
+} */
+
+.image-box img{
+  object-fit: cover;
+  width: 800px;
+  height: 653px;
+}
+.image-box img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover img {
+  transform: scale(1.2); 
+}
+.box-content1{
+  width: 127px;
+  height: 24px;
+  top: 3000px;
+  left: 735px;
+  margin-top: 98px;
+
+}
+.box-content1 h5{
+  color: var(--Text_Black, #000);
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: DM Serif ; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  
+}
+
+.content-2{
+  width: 478px;
+  height: 64px;
+  top: 2012px;
+  left: 735px;
+}
+
+.content-2 h2{
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 64px; 
+  margin-top: 20px;
+}
+
+.content-3{
+  width: 570px;
+  height: 69px;
+  flex-shrink: 0;
+  margin-top: 29px;
+}
+
+.content-3 big{
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+
+.icon-1-div,.icon-2-div,.icon-3-div{
+  display: flex;
+  margin-top: 23px;
+}
+.icon-1-div span,.icon-2-div span,.icon-3-div span{
+  color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  width: 216px;
+  height: 28px;
+  margin-left: 23px;
+  margin-top: 5px;
+}
+.icon-1 img{
+  width: 35px;
+  height: 33px;
+}
+.icon-2-div span{
+  margin-left: 17px;
+}
+.btn-srv{
+  display: flex;
+}
+.btn-1-srv{
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Primary_1, #434CCC);
+  margin-top: 57px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.btn-2-srv{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 57px;
+  margin-left: 30px;
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  background-color: #FFF;
+}
+.btn-2-srv:hover{
+  background-color: blueviolet;
+  opacity: 80%;
+  color: azure;
+}
+.btn-1-srv:hover{
+  background-color:  #434CCC;
+  color: azure;
+  opacity: 95%;
+  /* border-radius: 1px solid; */
+  
+}
+.grid-item>img{
+  transition: transform 0.3s ease-in-out;
+}
+.grid-item>img:hover{
+  transform: scale(1.5); 
+}
+.icon-1,.icon-2,.icon-3 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-1:hover {
+  transform: scale(1.5); 
+}
+.icon-2:hover {
+  transform: scale(1.5); 
+}
+.icon-3:hover {
+  transform: scale(1.5); 
+}
+.container-main{
+  width: 100%;
+  height: 480px;
+  flex-shrink: 0;
+  background: #434CCC;
+ 
+}
+.h{
+  color: var(--Text_White, #FFF);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; 
+  padding-top: 56px;
+/* width: 327px;
+height: 64px; */
+}
+.container-main{
+  text-align: center;
+}
+.split-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.split-text div {
+  white-space: wrap;
+}
+
+.centered-line {
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--Text_White, #FFF);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+.container-foot{
+  width: 100%;
+  height: 480px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-evenly;
+ margin-top: 35px;
+}
+.div1 h1{
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; 
+}
+.div1 span{
+  color: var(--text-white-50, rgba(255, 255, 255, 0.50));
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+.rectangle{
+  width: 100%;
+  height: 768px;
+  flex-shrink: 0;
+  /* border: 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.child-1{
+  width: 40%;
+  /* border: 1px solid; */
+  
+}
+.child-2{
+  width: 60%;
+  /* border: 1px solid; */
+}
+.child-1 h5{
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-left: 135px;
+  margin-top: 111px;
+}
+.child-1 h2{
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px; /* 114.286% */
+  margin-left: 122px;
+  margin-bottom: 25px;
+}
+.child-1 div{
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 122px;
+  width: 331px;
+}
+.btn-3{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 33px;
+  color: #434CCC;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  background-color: #FFF;
+  margin-left: 122px;
+}
+.btn-3:hover{
+  background-color: rgb(255, 196, 0);
+  color: #000;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 400px); 
+  grid-template-rows: repeat(3, 100px); 
+  /* border: 1px solid; */
+  row-gap: 90px;
+  column-gap: 40px;
+  
+}
+.grid-item{
+  display: flex;
+  width: 300px;
+  margin-top: 176px;
+ height: fit-content;
+}
+.grid-item>img{
+  width: 52px;
+  height: 45px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  object-fit: contain;
+ 
+}
+
+.grid-item>div>h4{
+  margin-left: 30px;
+  margin-bottom: 7px;
+}
+.grid-item>div>div{
+  width: 270px;
+  height: 80px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Sourav Anand */
+
 /* Nuralam Dewan */
 
 .bit {
