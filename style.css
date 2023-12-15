@@ -1,325 +1,375 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .box {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background: #434ccc;
-    color: white;
-    padding: 16px;
-    position: fixed;
-  }
-  
-  .logo {
-    font-size: 40px;
-    margin-left: 138px;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 135px;
-  }
-  
-  .titles > a {
-    text-decoration: none;
-    padding-right: 50px;
-    color: white;
-    font-family: dm sans;
-  }
-  .titles > a:hover {
-    font-size: 18px;
-    transition: font-size 0.1s ease-in;
-  }
-  
-  .navbutton > button {
-    color: white;
-    background: transparent;
-    padding: 11px 56.5px;
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  .navbutton > button:hover {
-    color: black;
-    background: white;
-    transition: color 0.3s ease-in;
-  }
-  
-  .about {
-    width: 100%;
-    height: 254px;
-    background: #434ccc;
-  }
-  
-  .text {
-    text-align: center;
-    padding: 70px;
-  }
-  
-  .text > h1 {
-    margin-top: 30px;
-    color: var(--Text_White, #fff);
-    text-align: center;
-  
-    font-family: DM Serif Display;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 80px;
-  }
-  .text > p {
-    color: var(--Text_White, #fff);
-    text-align: center;
-  
-    font-family: DM Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-  }
-  
-  .container-2 {
-    width: 100%;
-    height: 768px;
-    display: flex;
-  }
-  
-  .container-text {
-    margin-left: 135px;
-    margin-top: 127px;
-  }
-  
-  .container-2 div > h5 {
-    color: var(--Text_Black, #000);
-    /* H5 */
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 4.8px;
-    text-transform: uppercase;
-  }
-  
-  .container-2 div > h2 {
-    color: #000;
-    /* H2 */
-    font-family: DM Serif Display;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 64px;
-    width: 411px;
-    padding-top: 20px;
-  }
-  
-  .container-2 div > p {
-    color: var(--Text_Black, #000);
-    /* Text_Big */
-    font-family: DM Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    width: 570px;
-    padding-top: 20px;
-  }
-  
-  .container-2 div > h3 {
-    padding-top: 30px;
-    color: var(--Text_Black, #000);
-    /* H3 */
-    font-family: DM Serif Display;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    width: 86px;
-    height: 48px;
-  }
-  
-  .container-2 div > .black {
-    color: var(--Text_Black, #000);
-    /* Text */
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    width: 178px;
-    height: 24px;
-  }
-  
-  .container-2 div > .grey {
-    color: rgba(0, 0, 0, 0.5);
-  
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    height: 49px;
-    width: 250px;
-  }
-  
-  .container-2 >img{
-    width: 814px;
-    height: 718px;
-  }
-
-  /* Nuralam Dewan */
-
-  .bit{
-    max-width:  1440px;
-    height: 768px; 
-    background: #434ccc0e;
-    margin-left: 30px;
-    display: flex;
+  margin: 0;
+  padding: 0;
 }
-.bit-img{
-    width: 689px;
-    height: 500px;
-    /* border: 1px solid ;
+.box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #434ccc;
+  color: white;
+  padding: 16px;
+  position: fixed;
+}
+
+.logo {
+  font-size: 40px;
+  margin-left: 138px;
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 135px;
+}
+
+.titles > a {
+  text-decoration: none;
+  padding-right: 50px;
+  color: white;
+  font-family: dm sans;
+}
+.titles > a:hover {
+  font-size: 18px;
+  transition: font-size 0.1s ease-in;
+}
+
+.navbutton > button {
+  color: white;
+  background: transparent;
+  padding: 11px 56.5px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbutton > button:hover {
+  color: black;
+  background: white;
+  transition: color 0.3s ease-in;
+}
+
+.about {
+  width: 100%;
+  height: 254px;
+  background: #434ccc;
+}
+
+.text {
+  text-align: center;
+  padding: 70px;
+}
+
+.text > h1 {
+  margin-top: 30px;
+  color: var(--Text_White, #fff);
+  text-align: center;
+
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.text > p {
+  color: var(--Text_White, #fff);
+  text-align: center;
+
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.container-2 {
+  width: 100%;
+  height: 768px;
+  display: flex;
+}
+
+.container-text {
+  margin-left: 135px;
+  margin-top: 127px;
+}
+
+.container-2 div > h5 {
+  color: var(--Text_Black, #000);
+  /* H5 */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.container-2 div > h2 {
+  color: #000;
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  width: 411px;
+  padding-top: 20px;
+}
+
+.container-2 div > p {
+  color: var(--Text_Black, #000);
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 570px;
+  padding-top: 20px;
+}
+
+.container-2 div > h3 {
+  padding-top: 30px;
+  color: var(--Text_Black, #000);
+  /* H3 */
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  width: 86px;
+  height: 48px;
+}
+
+.container-2 div > .black {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 178px;
+  height: 24px;
+}
+
+.container-2 div > .grey {
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 49px;
+  width: 250px;
+}
+
+.container-2 > img {
+  width: 814px;
+  height: 718px;
+}
+
+.container-3 {
+  width: 100%;
+  height: 768px;
+}
+
+.container-3-text {
+  text-align: center;
+}
+
+.container-3-text > h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* H2 */
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  padding-top: 20px;
+}
+.container-3-text > div {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  padding-top: 29px;
+  /* Text_Big */
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 32px;
+  flex-shrink: 0;
+}
+
+.container-3-text > div > p {
+  height: 83px;
+  width: 570px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  gap: 20px;
+  
+}
+
+.card1 {
+  width: 370px;
+  height: 416px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card1>svg{
+  padding-top: 64px;
+}
+/* Nuralam Dewan */
+
+.bit {
+  max-width: 1440px;
+  height: 768px;
+  background: #434ccc0e;
+  margin-left: 30px;
+  display: flex;
+}
+.bit-img {
+  width: 689px;
+  height: 500px;
+  /* border: 1px solid ;
    border-radius: 10px; */
-    margin-top: 135px;
-    margin-bottom: 133px; 
-   
+  margin-top: 135px;
+  margin-bottom: 133px;
 }
-.bit-img>img{
-    width: 550px;
-    height: 480px;
-    /* border-radius: 13%; */
-    padding-left: 100px;
-    padding-right: 100px;
-   
-    padding-top: 10px;
-  
-}
-.bit-text{
-    width: 650px;
-    height: 500px;
-   
-    margin-top: 135px;
-    margin-bottom: 133px; 
+.bit-img > img {
+  width: 550px;
+  height: 480px;
+  /* border-radius: 13%; */
+  padding-left: 100px;
+  padding-right: 100px;
 
+  padding-top: 10px;
 }
-.bit-text>div{
-    
-    max-height: 24px;
-    /* background-color: yellow; */
+.bit-text {
+  width: 650px;
+  height: 500px;
+
+  margin-top: 135px;
+  margin-bottom: 133px;
+}
+.bit-text > div {
+  max-height: 24px;
+  /* background-color: yellow; */
 }
 
-.bit-text>div>h5{
-    font-family:DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 24px;  */
-    letter-spacing: 4.8px;
-    text-transform: uppercase;
-    padding-left: 50px;
-    /* margin-bottom: 21px; */
-    position: relative;
-    top: 40px;
-   
+.bit-text > div > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 24px;  */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  /* margin-bottom: 21px; */
+  position: relative;
+  top: 40px;
 }
-.anmel{
-    width: 511px;
-    /* background-color: black; */
-   
+.anmel {
+  width: 511px;
+  /* background-color: black; */
 }
-.anmel>h2{
-    font-family: DM Serif Display;
-    font-size: 56px;
-    font-style: normal;
-    /* line-height: 64px;  */
-    padding-left: 50px;
-   
-   
+.anmel > h2 {
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  /* line-height: 64px;  */
+  padding-left: 50px;
 }
-.vix{
-width: 470px;
+.vix {
+  width: 470px;
 }
 
-.vix>p{
-    font-family: DM Sans;
-    font-size: 20px;
-    font-style: normal;
-    /* line-height: 32px;  */
-    padding-left: 50px;
-    position: relative;
-    top: 40px;
-   
+.vix > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  /* line-height: 32px;  */
+  padding-left: 50px;
+  position: relative;
+  top: 40px;
 }
-.btn{
-    padding-left: 50px;
+.btn {
+  padding-left: 50px;
 }
-.btn>button{
-    margin-top: 118px;
-    width: 170px;
-    height: 48px;
-    background-color: #434CCC;
-    border-radius: 5px;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: DM sans;
-    font-size: 16px;
-    font-style: normal;
-    /* line-height: 24px;  */
-    cursor: pointer;
-    border-color:#434CCC ;
-    
-   
-   
+.btn > button {
+  margin-top: 118px;
+  width: 170px;
+  height: 48px;
+  background-color: #434ccc;
+  border-radius: 5px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: DM sans;
+  font-size: 16px;
+  font-style: normal;
+  /* line-height: 24px;  */
+  cursor: pointer;
+  border-color: #434ccc;
 }
-.btn> button:hover{
-    background-color: aquamarine;
-    color: black;
-    border-color: aquamarine;
+.btn > button:hover {
+  background-color: aquamarine;
+  color: black;
+  border-color: aquamarine;
 }
-.assests{
-    max-width:  1440px;
-    height: 768px; 
-    background: #434ccc0e;
-    margin-left: 30px;
-    display: flex;
-    border:1px solid;
+.assests {
+  max-width: 1440px;
+  height: 768px;
+  background: #434ccc0e;
+  margin-left: 30px;
+  display: flex;
+  border: 1px solid;
 }
-.assests-text{
-    width: 700px;
-    border: 5px solid;;
+.assests-text {
+  width: 700px;
+  border: 5px solid;
 }
-.nolu{
-    max-height: 24px;
+.nolu {
+  max-height: 24px;
 }
-.usu{
-    width: 392px;
+.usu {
+  width: 392px;
 }
-.assests-img{
-    width: 700px;
-    border: 5px solid;;
-    box-sizing: content-box;
-    
+.assests-img {
+  width: 700px;
+  border: 5px solid;
+  box-sizing: content-box;
 }
-.clip{
-        width: 700px;
-        height:700px;
-        border:1px solid;
-        justify-content: center;
-        justify-items: center;
-      margin-top: 20px;
+.clip {
+  width: 700px;
+  height: 700px;
+  border: 1px solid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20px;
 }
-.clip>img{
-    width:700px;
-    /* margin-top: 10px; */
-    /* height: 600px; */
-   
+.clip > img {
+  width: 700px;
+  /* margin-top: 10px; */
+  /* height: 600px; */
 }
 
 /* Nuralam Dewan */
