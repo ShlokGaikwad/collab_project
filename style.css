@@ -4,6 +4,7 @@
 }
 .box {
   display: flex;
+  z-index: 1000;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -213,12 +214,11 @@
   width: 570px;
 }
 
-.card-container{
+.card-container {
   display: flex;
   justify-content: center;
   padding-top: 36px;
   gap: 20px;
-  
 }
 
 .card1 {
@@ -228,14 +228,81 @@
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  transition:  0.2s ease-in-out;
 }
 
-.card1>svg{
+.card1:hover{
+  transform: scale(0.9);
+  opacity:0.8 ;
+}
+
+.card-svg {
+  text-align: center;
   padding-top: 64px;
 }
+svg {
+  height: 96px;
+}
+
+.card-text {
+  padding-top: 54px;
+  padding-left: 30px;
+}
+
+.card-text > h4 {
+  color: var(--Text_Black, #000);
+  /* H4 */
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.card-text > h5 {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  padding-top: 15px;
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 306px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.line {
+  width: 338px;
+  height: 1px;
+  background: #000;
+  opacity: 0.1011;
+  /* margin-left: 32px; */
+  margin-top: 25px;
+}
+
+.card-learn {
+  display: flex;
+}
+
+.card-learn > h4 {
+  padding-top: 18px;
+  /* padding-left: 32px; */
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.card-learn > svg {
+  margin-top: -16px;
+  padding-left: 5px;
+}
+
 /* Nuralam Dewan */
 
 .bit {
