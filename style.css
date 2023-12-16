@@ -11,6 +11,7 @@
   color: white;
   padding: 16px;
   position: fixed;
+  z-index: 1000;
 }
 
 .logo {
@@ -172,6 +173,72 @@
   height: 718px;
 }
 
+/* .container-3 {
+  width: 100%;
+  height: 768px;
+}
+
+.container-3-text {
+  text-align: center;
+}
+
+.container-3-text > h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  /* H2 */
+  /* font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  padding-top: 20px;
+}
+.container-3-text > div {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  padding-top: 29px;
+  /* Text_Big */
+  /* font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 32px;
+  flex-shrink: 0;
+} */
+
+/* .container-3-text > div > p {
+  height: 83px;
+  width: 570px;
+} */
+
+/* .card-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  gap: 20px;
+  
+} */
+
+/* .card1 {
+  width: 370px;
+  height: 416px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+/* .card1>svg{
+  padding-top: 64px;
+} */ 
+
+
 .container-3 {
   width: 100%;
   height: 768px;
@@ -213,12 +280,11 @@
   width: 570px;
 }
 
-.card-container{
+.card-container {
   display: flex;
   justify-content: center;
   padding-top: 36px;
   gap: 20px;
-  
 }
 
 .card1 {
@@ -228,13 +294,79 @@
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  transition:  0.2s ease-in-out;
 }
 
-.card1>svg{
+.card1:hover{
+  transform: scale(0.9);
+  opacity:0.8 ;
+}
+
+.card-svg {
+  text-align: center;
   padding-top: 64px;
+}
+svg {
+  height: 96px;
+}
+
+.card-text {
+  padding-top: 54px;
+  padding-left: 30px;
+}
+
+.card-text > h4 {
+  color: var(--Text_Black, #000);
+  /* H4 */
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.card-text > h5 {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  padding-top: 15px;
+  /* Text_Gray */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 306px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.line {
+  width: 338px;
+  height: 1px;
+  background: #000;
+  opacity: 0.1011;
+  /* margin-left: 32px; */
+  margin-top: 25px;
+}
+
+.card-learn {
+  display: flex;
+}
+
+.card-learn > h4 {
+  padding-top: 18px;
+  /* padding-left: 32px; */
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.card-learn > svg {
+  margin-top: -16px;
+  padding-left: 5px;
 }
 
 /* Sourav Anand */
@@ -736,10 +868,10 @@ line-height: 32px; /* 160% */
 .assests{
   max-width: 100%;
   height: 768px; 
-  /* background: #434ccc0e; */
+ 
   
-  display: flex;
-  /* border:1px solid; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 .assests-text{
   width: 700px;
@@ -874,7 +1006,7 @@ background: #428DFC;
     
 }
 .clip>img{
-  width: 1000px;
+  width: 895px;
     height: 700px;
     margin-left: -20%;
     display: block;
