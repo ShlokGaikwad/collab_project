@@ -172,73 +172,6 @@
   width: 814px;
   height: 718px;
 }
-
-/* .container-3 {
-  width: 100%;
-  height: 768px;
-}
-
-.container-3-text {
-  text-align: center;
-}
-
-.container-3-text > h2 {
-  color: var(--Text_Black, #000);
-  text-align: center;
-  /* H2 */
-  /* font-family: DM Serif Display;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 64px;
-  padding-top: 20px;
-}
-.container-3-text > div {
-  color: var(--Text_Black, #000);
-  text-align: center;
-  padding-top: 29px;
-  /* Text_Big */
-  /* font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  line-height: 32px;
-  flex-shrink: 0;
-} */
-
-/* .container-3-text > div > p {
-  height: 83px;
-  width: 570px;
-} */
-
-/* .card-container{
-  display: flex;
-  justify-content: center;
-  padding-top: 36px;
-  gap: 20px;
-  
-} */
-
-/* .card1 {
-  width: 370px;
-  height: 416px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-} */
-
-/* .card1>svg{
-  padding-top: 64px;
-} */ 
-
-
 .container-3 {
   width: 100%;
   height: 768px;
@@ -369,7 +302,7 @@ svg {
   padding-left: 5px;
 }
 
-/* Sourav Anand */
+
 
 body{
   margin: 0%;
@@ -380,9 +313,7 @@ body{
   width: 100%;
   flex-wrap: wrap;
 }
-/* .image-box{
-  margin-left: 101px;
-} */
+
 
 .image-box img{
   object-fit: cover;
@@ -554,8 +485,7 @@ body{
   font-weight: 400;
   line-height: 64px; 
   padding-top: 56px;
-/* width: 327px;
-height: 64px; */
+
 }
 .container-main{
   text-align: center;
@@ -734,7 +664,7 @@ height: 64px; */
 .bit{
   width:  100%;
   height: 768px; 
-  /* background: #434ccc0e; */
+ 
   
   display: flex;
 }
@@ -760,10 +690,7 @@ height: 64px; */
   border-radius: 10px;
   
   
-  /* padding-left: 200px;
-  padding-right: 100px;
- 
-  padding-top: 10px; */
+  
 
 }
 .bit-text{
