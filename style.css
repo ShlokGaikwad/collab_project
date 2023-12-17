@@ -943,10 +943,6 @@ background: #428DFC;
 
 /* Nuralam Dewan */
 /* Amrit */
-body{
-  margin: 0%;
-  padding: 0%;
-}
 .parent{
   background-color: #FFDD78;
   color: black;
@@ -957,7 +953,8 @@ body{
   justify-content: center;
   align-items: center;
   gap: 80px;
-  
+  margin: auto;
+  padding:79px 135px 79px 135px;
 }
 
   #child {
@@ -997,7 +994,7 @@ input {
 }
 
 .sub-button {
-  background-color: #434ccc;
+  background-color:  #434ccc;
   color: white;
   width: 170px;
   height: 48px;
@@ -1013,18 +1010,16 @@ input {
 }
 }
 footer{
-background:white;
+
 display: flex;
 justify-content: center;
-width: 100%; 
+width: auto; 
 } 
 .containers{
-/* max-width:1170px; */
-width: 100%;
-border:1px dashed;
-background-color: gold;
-opacity: 1;
-z-index:1;
+max-width:1170px;
+
+background-color: white;
+
 flex-grow: 1;
 margin-top: 80px;
 display: flex;
@@ -1050,171 +1045,220 @@ margin: 0;
 padding: 0;
 }
 
-footer{
-width: 100%;
-height: auto;
-background-color: rgb(245,246,252);
-/* padding: 0px 135px ; */
-/* margin: auto; */
 
-&>.footer-container {
-  padding-top: 79px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-
-  &>div{
-      flex-grow: 1;
-  }
-}
-li:hover{
-  color: #000;
-  transition: 0.3s;
-}
+body {
+margin: 0;
+padding: 0;
 }
 
-#logos{
-flex-basis: 33.32%;
+.containers {
+width:100%;
+
+margin: 5px;
+padding: 10px;
+
+
+margin-top: 3%;
+height: 300px;
+justify-content: space-evenly;
+align-items: center;
+gap: 150px;
+margin-left: -55px ;
+
+}
+.containers>div{
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+footer {
+
+padding: 20px 0;
+
+
+
+
+}
+
+#logos {
 display: flex;
 flex-direction: column;
-
-h4{
-  margin-top: -7px;
-  margin-bottom: 23px;
-  color: #000;
-  font-family: "DM Serif Display";
-  font-size: 24px;
-  font-weight: bolder;
-  line-height: 32px; 
-
-  &+ div{
-      width: 270px;
-      height: 79px;
-      flex-shrink: 0;
-      margin-bottom: 16px;
-      font-family: "DM Sans";
-      color: rgba(0, 0, 0, 0.5);
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;   
-  }
+gap: 25px;
 }
 
-#socials{
-  display: flex;
-  flex-shrink: 0;
-  gap:13px;
-  &>img:nth-child(1){
-      width: 9px;
-      height: 18px;
-      flex-shrink: 0;
-      margin-right: 13px;
-  }
-  &>img:nth-child(2){
-      width: 18px;
-      height: 15px;
-      flex-shrink: 0;
-      margin-right: 10px;
-  }
-  &>img:nth-child(3){
-      width: 18px;
-      height: 18px;
-      flex-shrink: 0;
-  }
-}
-img:hover{
-  color: #000;
-}
+#logos h3 {
+
+color: var(--Text_Black, #000);
+
+font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+
+
 }
 
-#causae{
-flex-basis: 16.66%;
+#socials {
+margin-top: 10px;
 }
 
-#aperiri{
-flex-basis: 16.66%;
+#socials a {
+margin-right: 10px;
 }
-.foot-h4{
-font-family: "DM Sans";
+
+#causae,
+#aperiri {
+margin-top: 20px;
+gap: 5px 10px;
+}
+
+
+.foot-h4 {
+margin-bottom: 30px;
+font-family: DM Sans;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; 
-margin-bottom: 24px;
+color: var(--Text_Black, #000);
+
+
 }
 
-.foot-ul{
+ul>li {
+list-style-type: none;
 padding: 0;
-margin: 0;
+margin-bottom: 25px;
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
 
-&>li{
-  list-style: none;
-  margin-bottom: 8px;
-  color: rgba(0, 0, 0, 0.50);
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-}
-#latestPosts{
-flex-basis: 33.32%;
+#latestPosts,
+.footer-post {
 display: flex;
-flex-direction: column;
-gap:39px;
-}
-.footer-post{
-display: flex;
-gap: 30px;   
+margin-top: 20px;
+gap: 30px;
+
+
 }
 
-.post-description{
-div{
-  color: rgba(0, 0, 0, 0.50);
-  font-family: "DM Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px; 
-}
-p{
-  color: #000;
-  font-family: "DM Sans";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; 
-}
-}
-
-.footer-img{
+.footer-post img {
+width: 50px; /* Adjust as needed */
+height: 50px; /* Adjust as needed */
+margin-right: 25px;
+margin-top: 8px;
+border-radius: 5px;
 width: 71px;
 height: 48px;
 flex-shrink: 0;
-border-radius: 6px;
+
+
+
 }
 
-#footer-line{
-height:81px;
-width: 1440px;
-border-top: 1px solid rgba(0, 0, 0, 0.5);
-background-color: rgb(245,246,252);
-padding: 0 135px;
-margin: auto;
+.post-discription {
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+width: 258px;
 
-&>.footer-line-container{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 27px ;
-  justify-content: space-between;
 
-  .p1 , .p2{
-      color: rgba(0, 0, 0, 0.50);
-      font-family: "DM Sans";
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-  }
+}
+
+.post-discription p{
+color: var(--Text_Black, #000);
+/* Text_Small */
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+
 } 
+
+#line {
+
+width: 100%;
+height: 1px;
+flex-shrink: 0;
+/* opacity: 0.0989;  */
+background: hsla(0, 3%, 44%, 0.469);
+
+}
+
+.line-container {
+display: flex;
+justify-content:space-between ;
+height: 45px;
+
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 10px; /* 150% */
+padding: 30px;
+margin-bottom: 10px;
+
+}
+
+.posts{
+width: 255px;
+height: 358px;
+/* flex-shrink: 5px; */
+/* padding-bottom: 0px; */
+margin-top:60px;
+gap: 100px;
+
+}
+.p1{
+padding-left: 142px;
+} 
+.p2{
+padding-right: 90px;
+}
+
+#bold{
+color: var(--Text_Black, #000);
+/* Text_Small */
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+}
+.posts p{
+color: var(--Text_Black, #000);
+/* Text_Small */
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+}
+.post-description>div{
+color: var(--text-black-50, rgba(0, 0, 0, 0.50));
+/* Text_Gray */
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+width: 270px;
 }
