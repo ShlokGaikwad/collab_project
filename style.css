@@ -382,9 +382,9 @@ body{
   color: azure;
 }
 .btn-1-srv:hover{
-  background-color:  #434CCC;
+  background-color:  green;
   color: azure;
-  opacity: 95%;
+  opacity: 70%;
   /* border-radius: 1px solid; */
   
 }
@@ -523,7 +523,7 @@ height: 64px; */
   margin-left: 122px;
   width: 331px;
 }
-.btn-3{
+.btn-3-srv{
   width: 170px;
   height: 48px;
   border-radius: 5px;
@@ -539,8 +539,9 @@ height: 64px; */
   background-color: #FFF;
   margin-left: 122px;
 }
-.btn-3:hover{
+.btn-3-srv:hover{
   background-color: rgb(255, 196, 0);
+  opacity: 80%;
   color: #000;
 }
 .grid-container {
