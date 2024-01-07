@@ -19,4 +19,4 @@ User can visit our site and can follows us through the link given in the footer 
 Along with they can subscribe to us from the given subscribe section.
 
 Deployed Link :
-https://659ac3e6480483a171fabc62--prismatic-travesseiro-2cbad9.netlify.app/
+https://659ad2837ca9a5694687bf26--elegant-arithmetic-94fcef.netlify.app/
