@@ -17,3 +17,6 @@ We kept the products availability infomation so that User can easily find the no
 Footer :
 User can visit our site and can follows us through the link given in the footer section also can get to know more about the website .
 Along with they can subscribe to us from the given subscribe section.
+
+Deployed Link :
+https://659ac3e6480483a171fabc62--prismatic-travesseiro-2cbad9.netlify.app/
