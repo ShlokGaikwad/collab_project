@@ -9,7 +9,7 @@ MongoDB
 Javascript
 
 ### <h1 style="color:#215dc8">Screenshot</h1>
-![Alt text](Screenshot 2024-01-08 173943.png)
+![Alt text]((https://github.com/ShlokGaikwad/collab_project/blob/main/Screenshot%202024-01-08%20173943.png))
 
 In Detailed :
 Typically page represents the about section of Website where an users find all of the detailed information of the business website .
