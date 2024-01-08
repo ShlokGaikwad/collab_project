@@ -8,7 +8,7 @@ Bootstrap
 MongoDB
 Javascript
 
-### <h1 style="color:#215dc8">Secreenshot</h1>
+### <h1 style="color:#215dc8">Screenshot</h1>
 <figure>
 <img src="![Screenshot 2024-01-08 174009](https://github.com/ShlokGaikwad/collab_project/assets/99670746/40c6aeda-a850-4108-96f6-fbe0df709c6b)
 "  style=" border-radius: 5px;" width="100%"/>
