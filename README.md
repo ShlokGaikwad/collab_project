@@ -8,6 +8,13 @@ Bootstrap
 MongoDB
 Javascript
 
+### <h1 style="color:#215dc8">Secreenshot</h1>
+<figure>
+<img src="![Screenshot 2024-01-08 174009](https://github.com/ShlokGaikwad/collab_project/assets/99670746/40c6aeda-a850-4108-96f6-fbe0df709c6b)
+"  style=" border-radius: 5px;" width="100%"/>
+<figcaption align = "center"><b>landingpage markup</b></figcaption>
+</figure>
+
 In Detailed :
 Typically page represents the about section of Website where an users find all of the detailed information of the business website .
 Users can navigate through each section of the page once logged in , also users can edit,create,delete,update his privacy along with having any queries can chat through us via chat section and more so.
