@@ -9,11 +9,7 @@ MongoDB
 Javascript
 
 ### <h1 style="color:#215dc8">Screenshot</h1>
-<figure>
-<img src="![Screenshot 2024-01-08 174009](https://github.com/ShlokGaikwad/collab_project/assets/99670746/40c6aeda-a850-4108-96f6-fbe0df709c6b)
-"  style=" border-radius: 5px;" width="100%"/>
-<figcaption align = "center"><b>landingpage markup</b></figcaption>
-</figure>
+![image](https://drive.google.com/file/d/1U90f_qYkjLFaksgS8iPs0FYjffwFHh2C/view?usp=sharing)
 
 In Detailed :
 Typically page represents the about section of Website where an users find all of the detailed information of the business website .
