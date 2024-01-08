@@ -9,7 +9,7 @@ MongoDB
 Javascript
 
 ### <h1 style="color:#215dc8">Screenshot</h1>
-![image]([https://drive.google.com/file/d/1U90f_qYkjLFaksgS8iPs0FYjffwFHh2C/view?usp=sharing](https://drive.google.com/file/d/1U90f_qYkjLFaksgS8iPs0FYjffwFHh2C/view?usp=sharing))
+![image](https://drive.google.com/file/d/1U90f_qYkjLFaksgS8iPs0FYjffwFHh2C/view?usp=sharing)
 
 In Detailed :
 Typically page represents the about section of Website where an users find all of the detailed information of the business website .
