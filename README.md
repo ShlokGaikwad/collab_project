@@ -19,7 +19,20 @@ Footer :
 User can visit our site and can follows us through the link given in the footer section also can get to know more about the website .
 Along with they can subscribe to us from the given subscribe section.
 
+#screenshot
 <img src="/Screenshot 2024-01-08 173943.png" alt="" />
+<img src="/Screenshot 2024-01-08 173959.png" alt="" />
+
+<img src="/Screenshot 2024-01-08 174009.png" alt="" />
+
+<img src="/Screenshot 2024-01-08 174021.png" alt="" />
+
+<img src="/Screenshot 2024-01-08 174027.png" alt="" />
+
+<img src="/Screenshot 2024-01-08 174033.png" alt="" />
+
+<img src="/Screenshot 2024-01-08 174039.png" alt="" />
+<img src="/Screenshot 2024-01-08 174042.png" alt="" />
 
 Deployed Link :
 https://659ad2837ca9a5694687bf26--elegant-arithmetic-94fcef.netlify.app/
