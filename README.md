@@ -7,8 +7,7 @@ Schema has been designed by cloning the Figma design provide to us by the organi
 HTML
 CSS
 Bootstrap
-MongoDB
-Javascript
+
 
 
 # In Detailed 
